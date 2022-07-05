@@ -1,4 +1,4 @@
-#include <iApplication.h>
+#include <iApplication.hpp>
 #include <Steam/SteamModule.h>
 
 int main(void)
