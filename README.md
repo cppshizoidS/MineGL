@@ -1,6 +1,6 @@
 # Minecraft Clone
 
-Clone of Minecraft in opengl
+Clone of Minecraft in OpenGL
 
 ---
-![](https://img.shields.io/tokei/lines/github/cppshizoidS/LunaGameEngine)
+![](https://img.shields.io/tokei/lines/github/cppshizoidS/MineGL)
