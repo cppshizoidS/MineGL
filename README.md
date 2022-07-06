@@ -1,6 +1,6 @@
-# LunaGameEngine
+# Minecraft Clone
 
-Luna Game Engine
+Clone of Minecraft in opengl
 
 ---
 ![](https://img.shields.io/tokei/lines/github/cppshizoidS/LunaGameEngine)
