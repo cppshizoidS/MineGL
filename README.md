@@ -1,6 +1,6 @@
 # Minecraft Clone
 
-Clone of Minecraft
+Clone of Minecraft in C++ using OpenGL
 
 Libriraes:
 * OpenGL
