@@ -4,6 +4,7 @@ Clone of Minecraft in C++ using OpenGL
 
 Libriraes:
 * OpenGL
+* Glew
 * SFML
 * GLM(Opengl mathematics)
 ---
