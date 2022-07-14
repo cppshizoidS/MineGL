@@ -1,0 +1,23 @@
+| Button                        | Action                                                         |
+|-------------------------------|----------------------------------------------------------------|
+| Left mouse button             | Break block                                                    |
+| Right mouse button            | Place block                                                    |
+| W, A, S, D                    | Move                                                           |
+| Space                         | Jump  / swim up   / fly up                                     |
+| Left Shift                    | Sneak / swim down / fly down                                   |
+| Hold Ctrl                     | Sprint                                                         |
+| Tab                           | Toggle creative mode                                           |
+| F                             | Toggle flying (in creative mode)                               |
+| E                             | Open/Close inventory                                           |
+| Q                             | Drop held item                                                 |
+| Mouse wheel                   | Previous/next item in toolbar                                  |
+| 0-9                           | Select item in toolbar                                         |
+| +/-          			| Add/subtract 0.5 hour                                          |
+| C                             | Reload chunks                                                  |
+| L                             | Lock mouse                                                     |
+| P                             | Toggle post-processing                                         |
+| F3                            | Hide/show HUD                                                  |
+| F4                            | Toggle fog                                                     |
+| F5                            | Toggle weather                                                 |
+| Esc                           | Pause the game                                                 |
+| Enter                         | Unpause the game                                               |
