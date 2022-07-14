@@ -123,6 +123,7 @@ namespace {
 			std::cerr << "Error: Could not find config.txt file! Using defaults.\n";
 
 			config.renderDistance = 12;
+			// formula is not that good, would be nice to hardcore every render distance option
 			config.fogDensity = 0.014f * 8.0f / config.renderDistance;
 			config.isFullscreen = true;
 			config.customResolution = false;
