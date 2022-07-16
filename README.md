@@ -23,7 +23,7 @@ Libriraes:
 
 ---
 What new i learned:
- * Have more pratiseze in GLSL
+ * Have more practice in GLSL
  * Learn pearlin noise algorithm
  * Get experience in 3D graphics programming 
 
