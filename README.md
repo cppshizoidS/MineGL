@@ -11,7 +11,7 @@ Libriraes:
 * Libnoise
 ---
 
-(MineGL/img/1.png)
+![](MineGL/img/1.png)
 
 
 ![](https://img.shields.io/tokei/lines/github/cppshizoidS/MineGL)
