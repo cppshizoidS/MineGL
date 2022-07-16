@@ -171,3 +171,38 @@ const Recipe9 Recipe9::STONE_AXE2(
 	// result
 	{ BlockId::StoneAxe, 1 }
 );
+const Recipe9 Recipe9::IRON_SWORD(
+	{ EMPTY, BlockId::IronOre, EMPTY,
+	EMPTY, BlockId::IronOre, EMPTY,
+	EMPTY, BlockId::Stick, EMPTY, },
+	// result
+	{ BlockId::IronSword, 1 }
+);
+const Recipe9 Recipe9::IRON_PICKAXE(
+	{ BlockId::IronOre, BlockId::IronOre, BlockId::IronOre,
+	EMPTY, BlockId::Stick, EMPTY,
+	EMPTY, BlockId::Stick, EMPTY, },
+	// result
+	{ BlockId::IronPickaxe, 1 }
+);
+const Recipe9 Recipe9::IRON_SHOVEL(
+	{ EMPTY, BlockId::IronOre, EMPTY,
+	EMPTY, BlockId::Stick, EMPTY,
+	EMPTY, BlockId::Stick, EMPTY, },
+	// result
+	{ BlockId::IronShovel, 1 }
+);
+const Recipe9 Recipe9::IRON_AXE1(
+	{ BlockId::IronOre, BlockId::IronOre, EMPTY,
+	BlockId::IronOre, BlockId::Stick, EMPTY,
+	EMPTY, BlockId::Stick, EMPTY, },
+	// result
+	{ BlockId::IronAxe, 1 }
+);
+const Recipe9 Recipe9::IRON_AXE2(
+	{ EMPTY, BlockId::IronOre, BlockId::IronOre,
+	EMPTY, BlockId::Stick, BlockId::IronOre,
+	EMPTY, BlockId::Stick, EMPTY, },
+	// result
+	{ BlockId::IronAxe, 1 }
+);
