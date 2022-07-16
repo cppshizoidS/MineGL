@@ -14,6 +14,11 @@ Libriraes:
 ![](MineGL/img/1.png)
 
 
+![](MineGL/img/2.png)
+
+
+![](MineGL/img/3.png)
+
 ![](https://img.shields.io/tokei/lines/github/cppshizoidS/MineGL)
 
 
