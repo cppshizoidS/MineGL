@@ -136,3 +136,38 @@ const Recipe9 Recipe9::WOODEN_AXE2(
 	// result
 	{ BlockId::WoodenAxe, 1 }
 );
+const Recipe9 Recipe9::STONE_SWORD(
+	{ EMPTY, BlockId::Cobblestone, EMPTY,
+	EMPTY, BlockId::Cobblestone, EMPTY,
+	EMPTY, BlockId::Stick, EMPTY, },
+	// result
+	{ BlockId::StoneSword, 1 }
+);
+const Recipe9 Recipe9::STONE_PICKAXE(
+	{ BlockId::Cobblestone, BlockId::Cobblestone, BlockId::Cobblestone,
+	EMPTY, BlockId::Stick, EMPTY,
+	EMPTY, BlockId::Stick, EMPTY, },
+	// result
+	{ BlockId::StonePickaxe, 1 }
+);
+const Recipe9 Recipe9::STONE_SHOVEL(
+	{ EMPTY, BlockId::Cobblestone, EMPTY,
+	EMPTY, BlockId::Stick, EMPTY,
+	EMPTY, BlockId::Stick, EMPTY, },
+	// result
+	{ BlockId::StoneShovel, 1 }
+);
+const Recipe9 Recipe9::STONE_AXE1(
+	{ BlockId::Cobblestone, BlockId::Cobblestone, EMPTY,
+	BlockId::Cobblestone, BlockId::Stick, EMPTY,
+	EMPTY, BlockId::Stick, EMPTY, },
+	// result
+	{ BlockId::StoneAxe, 1 }
+);
+const Recipe9 Recipe9::STONE_AXE2(
+	{ EMPTY, BlockId::Cobblestone, BlockId::Cobblestone,
+	EMPTY, BlockId::Stick, BlockId::Cobblestone,
+	EMPTY, BlockId::Stick, EMPTY, },
+	// result
+	{ BlockId::StoneAxe, 1 }
+);
