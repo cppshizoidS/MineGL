@@ -11,7 +11,7 @@ Libriraes:
 * Libnoise
 ---
 
-![](MineGL/img/1.png)
+![](MineGL/demo/1.png)
 
 
 ![](MineGL/img/2.png)
