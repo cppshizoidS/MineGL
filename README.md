@@ -27,4 +27,6 @@ What new i learned:
  * Learn pearlin noise algorithm
  * Get experience in 3D graphics programming 
 
-* self written noise generation was deleted on stady of debugging due to very slow generation(due to my crooked hands)
+
+
+Self written noise generation was deleted on stady of debugging due to very slow generation(due to my crooked hands)
