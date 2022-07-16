@@ -69,3 +69,70 @@ const Recipe4 Recipe4::SPRUCE_PLANKS(
 	// result
 	{ BlockId::SprucePlanks, 4 }
 );
+
+const Recipe4 Recipe4::STICK(
+	{ BlockId::OakPlanks, BlockId::OakPlanks,
+	EMPTY, EMPTY },
+	// result
+	{ BlockId::Stick, 4 }
+);
+
+const Recipe4 Recipe4::CRAFTING_TABLE(
+	{ BlockId::OakPlanks, BlockId::OakPlanks,
+	BlockId::OakPlanks, BlockId::OakPlanks },
+	// result
+	{ BlockId::CraftingTable, 1 }
+);
+
+const Recipe4 Recipe4::TORCHES(
+	{ BlockId::Coal, BlockId::Air,
+	BlockId::Stick, BlockId::Air },
+	// result
+	{ BlockId::Glowstone, 4 }
+);
+
+
+const std::vector<const Recipe9*> Recipe9::ALL_RESIPES
+{
+	&Recipe9::WOODEN_SWORD, &Recipe9::WOODEN_PICKAXE, &Recipe9::WOODEN_SHOVEL, &Recipe9::WOODEN_AXE1, &Recipe9::WOODEN_AXE2,
+	&Recipe9::STONE_SWORD, &Recipe9::STONE_PICKAXE, &Recipe9::STONE_SHOVEL, &Recipe9::STONE_AXE1, &Recipe9::STONE_AXE2,
+	&Recipe9::IRON_SWORD, &Recipe9::IRON_PICKAXE, &Recipe9::IRON_SHOVEL, &Recipe9::IRON_AXE1, &Recipe9::IRON_AXE2,
+	&Recipe9::GOLD_SWORD, &Recipe9::GOLD_PICKAXE, &Recipe9::GOLD_SHOVEL, &Recipe9::GOLD_AXE1, &Recipe9::GOLD_AXE2,
+	&Recipe9::DIAMOND_SWORD, &Recipe9::DIAMOND_PICKAXE, &Recipe9::DIAMOND_SHOVEL, &Recipe9::DIAMOND_AXE1, &Recipe9::DIAMOND_AXE2
+};
+
+const Recipe9 Recipe9::WOODEN_SWORD(
+	{ EMPTY, BlockId::OakPlanks, EMPTY,
+	EMPTY, BlockId::OakPlanks, EMPTY,
+	EMPTY, BlockId::Stick, EMPTY, },
+	// result
+	{ BlockId::WoodenSword, 1 }
+);
+const Recipe9 Recipe9::WOODEN_PICKAXE(
+	{ BlockId::OakPlanks, BlockId::OakPlanks, BlockId::OakPlanks,
+	EMPTY, BlockId::Stick, EMPTY,
+	EMPTY, BlockId::Stick, EMPTY, },
+	// result
+	{ BlockId::WoodenPickaxe, 1 }
+);
+const Recipe9 Recipe9::WOODEN_SHOVEL(
+	{ EMPTY, BlockId::OakPlanks, EMPTY,
+	EMPTY, BlockId::Stick, EMPTY,
+	EMPTY, BlockId::Stick, EMPTY, },
+	// result
+	{ BlockId::WoodenShovel, 1 }
+);
+const Recipe9 Recipe9::WOODEN_AXE1(
+	{ BlockId::OakPlanks, BlockId::OakPlanks, EMPTY,
+	BlockId::OakPlanks, BlockId::Stick, EMPTY,
+	EMPTY, BlockId::Stick, EMPTY, },
+	// result
+	{ BlockId::WoodenAxe, 1 }
+);
+const Recipe9 Recipe9::WOODEN_AXE2(
+	{ EMPTY, BlockId::OakPlanks, BlockId::OakPlanks,
+	EMPTY, BlockId::Stick, BlockId::OakPlanks,
+	EMPTY, BlockId::Stick, EMPTY, },
+	// result
+	{ BlockId::WoodenAxe, 1 }
+);
