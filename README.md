@@ -8,6 +8,7 @@ Libriraes:
 * GLFW
 * SFML
 * GLM(Opengl mathematics)
+* Libnoise
 ---
 ![](https://img.shields.io/tokei/lines/github/cppshizoidS/MineGL)
 
