@@ -206,3 +206,83 @@ const Recipe9 Recipe9::IRON_AXE2(
 	// result
 	{ BlockId::IronAxe, 1 }
 );
+const Recipe9 Recipe9::IRON_AXE2(
+	{ EMPTY, BlockId::IronOre, BlockId::IronOre,
+	EMPTY, BlockId::Stick, BlockId::IronOre,
+	EMPTY, BlockId::Stick, EMPTY, },
+	// result
+	{ BlockId::IronAxe, 1 }
+);
+
+const Recipe9 Recipe9::GOLD_SWORD(
+	{ EMPTY, BlockId::GoldOre, EMPTY,
+	EMPTY, BlockId::GoldOre, EMPTY,
+	EMPTY, BlockId::Stick, EMPTY, },
+	// result
+	{ BlockId::GoldSword, 1 }
+);
+const Recipe9 Recipe9::GOLD_PICKAXE(
+	{ BlockId::GoldOre, BlockId::GoldOre, BlockId::GoldOre,
+	EMPTY, BlockId::Stick, EMPTY,
+	EMPTY, BlockId::Stick, EMPTY, },
+	// result
+	{ BlockId::GoldPickaxe, 1 }
+);
+const Recipe9 Recipe9::GOLD_SHOVEL(
+	{ EMPTY, BlockId::GoldOre, EMPTY,
+	EMPTY, BlockId::Stick, EMPTY,
+	EMPTY, BlockId::Stick, EMPTY, },
+	// result
+	{ BlockId::GoldShovel, 1 }
+);
+const Recipe9 Recipe9::GOLD_AXE1(
+	{ BlockId::GoldOre, BlockId::GoldOre, EMPTY,
+	BlockId::GoldOre, BlockId::Stick, EMPTY,
+	EMPTY, BlockId::Stick, EMPTY, },
+	// result
+	{ BlockId::GoldAxe, 1 }
+);
+const Recipe9 Recipe9::GOLD_AXE2(
+	{ EMPTY, BlockId::GoldOre, BlockId::GoldOre,
+	EMPTY, BlockId::Stick, BlockId::GoldOre,
+	EMPTY, BlockId::Stick, EMPTY, },
+	// result
+	{ BlockId::GoldAxe, 1 }
+);
+
+
+const Recipe9 Recipe9::DIAMOND_SWORD(
+	{ EMPTY, BlockId::Diamond, EMPTY,
+	EMPTY, BlockId::Diamond, EMPTY,
+	EMPTY, BlockId::Stick, EMPTY, },
+	// result
+	{ BlockId::DiamondSword, 1 }
+);
+const Recipe9 Recipe9::DIAMOND_PICKAXE(
+	{ BlockId::Diamond, BlockId::Diamond, BlockId::Diamond,
+	EMPTY, BlockId::Stick, EMPTY,
+	EMPTY, BlockId::Stick, EMPTY, },
+	// result
+	{ BlockId::DiamondPickaxe, 1 }
+);
+const Recipe9 Recipe9::DIAMOND_SHOVEL(
+	{ EMPTY, BlockId::Diamond, EMPTY,
+	EMPTY, BlockId::Stick, EMPTY,
+	EMPTY, BlockId::Stick, EMPTY, },
+	// result
+	{ BlockId::DiamondShovel, 1 }
+);
+const Recipe9 Recipe9::DIAMOND_AXE1(
+	{ BlockId::Diamond, BlockId::Diamond, EMPTY,
+	BlockId::Diamond, BlockId::Stick, EMPTY,
+	EMPTY, BlockId::Stick, EMPTY, },
+	// result
+	{ BlockId::DiamondAxe, 1 }
+);
+const Recipe9 Recipe9::DIAMOND_AXE2(
+	{ EMPTY, BlockId::Diamond, BlockId::Diamond,
+	EMPTY, BlockId::Stick, BlockId::Diamond,
+	EMPTY, BlockId::Stick, EMPTY, },
+	// result
+	{ BlockId::DiamondAxe, 1 }
+);
