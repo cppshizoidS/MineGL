@@ -21,5 +21,10 @@ Libriraes:
 
 ![](https://img.shields.io/tokei/lines/github/cppshizoidS/MineGL)
 
+---
+What new i learned:
+ * Have more pratiseze in GLSL
+ * Learn pearlin noise algorithm
+ * Get experience in 3D graphics programming 
 
 * self written noise generation was deleted on stady of debugging due to very slow generation(due to my crooked hands)
