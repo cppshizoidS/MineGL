@@ -12,4 +12,4 @@ Libriraes:
 ![](https://img.shields.io/tokei/lines/github/cppshizoidS/MineGL)
 
 
-* self written noise generation was deleted on stady of debagging due to very slow generation(due to my crooked hands)
+* self written noise generation was deleted on stady of debugging due to very slow generation(due to my crooked hands)
